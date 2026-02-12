@@ -1,10 +1,3 @@
-## Separate repository requirement (Support Message Builder)
-
-The Support Message Builder must be developed in a **different repository** and should not be added to this calculator project.
-
-If you want a ready text to copy manually, use this `README.md` for your separate repository `support-message-builder`:
-
-```md
 # Support Message Builder
 
 A simple static tool to generate clear support messages for payout issues, KYC checks, and bonus disputes.
