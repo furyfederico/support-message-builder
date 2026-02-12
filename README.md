@@ -23,17 +23,5 @@ A simple static tool to generate clear support messages for payout issues, KYC c
 
 ## How to run (GitHub only, no terminal)
 
-1. Create a new GitHub repository named `support-message-builder`.
-2. Click **Add file → Create new file** and add:
-   - `index.html`
-   - `styles.css`
-   - `app.js`
-3. Click **Commit changes** for each file.
-4. Open **Settings → Pages**.
-5. Under **Build and deployment**:
-   - Source: **Deploy from a branch**
-   - Branch: `main`
-   - Folder: `/ (root)`
-6. Click **Save**.
-7. Wait 1–2 minutes and open the published URL, for example:
-   `https://furyfederico.github.io/support-message-builder/`
+Just go to:
+https://furyfederico.github.io/support-message-builder/
