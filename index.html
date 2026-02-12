@@ -1,1 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support Message Builder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Support Message Builder</h1>
+    <p>Create a clear support request for payout, KYC, or bonus dispute.</p>
+    <p>
+      Official website:
+      <a href="https://betfury.com/" target="_blank" rel="noopener noreferrer">betfury.com</a>
+    </p>
 
+    <label for="caseType">Case type</label>
+    <select id="caseType">
+      <option value="payout">Payout issue</option>
+      <option value="kyc">KYC issue</option>
+      <option value="bonus">Bonus dispute</option>
+    </select>
+
+    <label for="username">Username</label>
+    <input id="username" type="text" placeholder="your_username" />
+
+    <label for="summary">Summary</label>
+    <input id="summary" type="text" placeholder="Short issue summary" />
+
+    <label for="details">Details</label>
+    <textarea id="details" rows="6" placeholder="Timeline, IDs, screenshots, tx hash..."></textarea>
+
+    <button id="generateBtn" type="button">Generate Message</button>
+
+    <label for="output">Generated message</label>
+    <textarea id="output" rows="12" readonly></textarea>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
